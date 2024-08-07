@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com/css?family=Londrina Shadow">
+	<script src="script.js"></script>
+  <style>
+   body {
+     text-align: center;
+	 background: #D3D3D3;
+   }
+     
+   ul {
+     background: mediumBlue;
+	 list-style-type: none;
+	 overflow: hidden;
+	 padding: 32px;
+	 border: solid 4px;
+   }
+   
+   /* Makes each listed items on the unordered list be horizontal and spaced out */
+   li {
+     float: left;
+	 padding: 0px 10px 0px 330px;
+	 font-size: 25px;
+   }
+      
+   a {
+     color: yellow;
+   }
+   
+   /* Hovering a hyperlink to change its color (text) */
+   a:hover {
+     color: red;
+   }
+   
+   input {
+     margin-top: 70px;
+	 margin-bottom: 10px;
+	 height: 22px;
+	 width: 300px;
+	 border: solid 2px;
+   }
+   
+   button {
+      background: red;
+      color: white;
+	  font-size: 18px;
+    }
+	
+	button:hover {
+	  background: crimson;
+    }
+	
+	div {
+	  background: orange;
+	}
+	
+	/* Setting up each background images to expand in the div class */
+	.first {
+	  background-image: url("arts_and_entertainment.png");
+	  background-size: cover;
+      padding: 60px;
+	}
+	
+	.second {
+	  background-image: url("business_and_money.jpg");
+	  background-size: cover;
+      padding: 60px;
+	}
+	
+	.third {
+	  background-image: url("computers.jpg");
+	  background-size: cover;
+      padding: 60px;
+	}
+	
+	.fourth {
+	  background-image: url("family_and_home.jpg");
+	  background-size: cover;
+      padding: 60px;
+	}
+	
+	.fifth {
+	  background-image: url("health.png");
+	  background-size: cover;
+      padding: 60px;
+	}
+	
+	.sixth {
+	  background-image: url("miscellaneous.png");
+	  background-size: cover;
+	  padding: 60px;
+	}
+	
+	.seventh {
+	  background-image: url("education-licensing-KM.jpg");
+	  background-size: cover;
+	  padding: 60px;
+	}
+	
+	.eighth {
+	  background-image: url("relationships_and_society.jpg");
+	  background-size: cover;
+	  padding: 60px; 
+	}
+	
+	.ninth {
+	  background-image: url("science.jpg");
+	  background-size: cover;
+	  padding: 60px; 
+	}
+	
+	.tenth {
+	  background-image: url("sports_and_recreation.jpg");
+	  background-size: cover;
+	  padding: 60px; 
+	}
+	
+	/* Changes the p element of each div classes including,
+       fonts, color, and hovering 
+	*/
+	p {
+	  font-family: 'Londrina Shadow', arial;
+	  font-size: 30px;
+	  color: yellow;
+	  padding: -10px;
+	  text-align: center;
+	}
+	
+	p a:hover {
+	  color: black;
+	}
+	
+	button {
+	 background: grey;
+	 color: yellow;
+	}
+	
+   .footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+	 height: 15%;
+     width: 100%;
+     background-color: darkBlue;
+     color: white;
+     text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <img src="answers-logo-sm.png" height="100px;">
+  <ul>
+    <li><a href="#">Home</a></li>
+	<li><a href="#">About</a></li>
+	<li><a href="#">Contact</a></li>
+	<li><a href="#">Info</a></li>
+  	<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Search..."><button>Submit</button></li>	
+  </ul>
+
+<!-- Naming a <div> class .first value -->
+<div class="first">
+ <p onclick="alert('Sorry. This page is unavailable :( ')"><b><a href="#">Arts & Entertainment</a></b></p>
+ <button>Thread</button>
+</div>
+
+<br>
+
+<div class="second">
+ <p onclick="alert('Sorry. This page is unavailable :( ')"><b><a href="#">Business & Money</a></b></p>
+ <button>Thread</button>
+</div>
+
+<br>
+
+<div class="third">
+ <p onclick="alert('Sorry. This page is unavailable :( ')"><b><a href="#">Computers</a></b></p>
+ <button class="thread">Thread</button>
+</div>
+
+<br>
+
+<div class="fourth">
+ <p onclick="alert('Sorry. This page is unavailable :( ')"><b><a href="#">Family and Home</a></b></p>
+ <button>Thread</button>
+</div> 
+
+<br>
+
+<div class="fifth">
+ <p onclick="alert('Sorry. This page is unavailable :( ')"><b><a href="#">Health</a></b></p>
+ <button>Thread</button>
+</div>
+
+<br>
+
+<div class="sixth">
+ <p onclick="alert('Sorry. This page is unavailable :( ')"><b><a href="#">Miscellaneous</a></b></p>
+ <button>Thread</button>
+</div>
+
+<br>
+
+<div class="seventh">
+ <p onclick="alert('Sorry. This page is unavailable :( ')"><b><a href="#">Reference, Education and News</a></b></p>
+ <button>Thread</button>
+</div>
+
+<br>
+
+<div class="eighth">
+ <p onclick="alert('Sorry. This page is unavailable :( ')"><b><a href="#">Relationships and Society</a></b></p>
+ <button>Thread</button>
+</div>
+
+<br>
+
+<div class="ninth">
+ <p onclick="alert('Sorry. This page is unavailable :( ')"><b><a href="#">Science</a></b></p>
+ <button>Thread</button>
+</div>
+
+<br>
+
+<div class="tenth">
+ <p onclick="alert('Sorry. This page is unavailable :( ')"><b><a href="#">Sports and Recreation</a></b></p>
+ <button>Thread</button>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-- Creating a fixed footer -->
+<div class="footer">
+  <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#">Google Home</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="#">Answers FAQ</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="#">Terms of Service</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="#">Privacy Policy</a></li>
+  <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Search..."><button>Submit</button>
+</div>
+
+</body>
+</html>
+  
+
+ 
